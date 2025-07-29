@@ -1,4 +1,4 @@
-# Docker Hello World (CTO-Mode Crash Course)
+# Docker Hello World
 
 This guide explains the **Dockerfile**, basic `docker` commands, and key concepts like image, container, host, port, and IP — tailored for our `hello-world-docker` FastAPI example.
 
@@ -83,7 +83,7 @@ docker run -p 8000:8000 hello-docker
 
 ---
 
-## 🧪 Verifying It Works
+## Verifying It Works
 
 Once the container is running, open:
 
@@ -96,7 +96,7 @@ If it shows the FastAPI UI, we’ve succeeded!
 
 ---
 
-## ✅ Summary
+## Summary
 
 - We’ve built a FastAPI app inside Docker.
 - We understand the role of image, container, host, port, and IP.
